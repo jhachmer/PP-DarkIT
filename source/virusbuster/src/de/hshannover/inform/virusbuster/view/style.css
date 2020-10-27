@@ -1,0 +1,82 @@
+/*
+ * .css file for virusbuster game
+ */
+
+/*MENU BACKGROUND */
+.root {
+    -fx-background-image: url("/de/hshannover/inform/virusbuster/files/menubackground.jpg");
+}
+/*GAME BACKGROUND */
+#gameScene {
+    -fx-background-image: url("/de/hshannover/inform/virusbuster/files/background.png")
+}
+/*LABEL */
+.label {
+    -fx-font-family: 'Tourmaline Bold';
+    -fx-font-size: 13px;
+    -fx-text-fill: #33cc00;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 1,1,1,1);
+}
+/*VIRUS LABEL */
+#viruses {
+    -fx-font-size: 16px;
+    -fx-text-fill: #00cc33;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 0,0,0,0);
+}
+/*TILES LABEL */
+#tiles {
+    -fx-font-size: 16px;
+    -fx-text-fill: #00cc33;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,1) , 0,0,0,0);
+}
+/*CHOOSE DIFFICULITY LABEL */
+#chooseDifficulty {
+    -fx-font-size: 26px;
+}
+/*HELP LABEL */
+#helpLabel {
+    -fx-font-size: 45px;
+}
+/*RIGHT/LEFT HEADER LABEL */
+#helpHeader {
+    -fx-font-size: 26px;   
+}
+/*BOX LABELS */
+#helpBold {
+    -fx-text-fill: #00cc00;
+    -fx-font-size: 16px;
+}
+/*WIN LABEL */
+#youWonLabel {
+    -fx-font-size: 36px;
+    -fx-text-fill: #00cc33;
+}
+/*LOSS LABEL */
+#gameOverLabel {
+    -fx-font-size:36px;
+    -fx-text-fill: red;
+}
+/*MENU BUTTONS */
+.button {
+    -fx-text-fill: #00cc33;
+    -fx-font-family: 'Tourmaline Glitch';
+    -fx-font-size: 20px;
+    -fx-background-color: linear-gradient(#000000, #3f3f3f);
+}
+/*GAME TILES */
+#tile {
+    -fx-text-fill: #000000;
+    -fx-font-family: 'Tourmaline Bold';
+    -fx-font-size: 20px;
+    -fx-background-color: linear-gradient(#33cc00, #00cc33);
+}
+/*HELP SCREEN RIGHT BOX */
+#rightBox {
+    -fx-background-color: #000000;
+    -fx-opacity: 0.8;
+}
+/*HELP SCREEN LEFT BOX */
+#leftBox {
+    -fx-background-color: #000000;
+    -fx-opacity: 0.8;
+}
