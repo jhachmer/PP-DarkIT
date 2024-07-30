@@ -1,1 +1,0 @@
-start javaw -jar virusbuster.jar
